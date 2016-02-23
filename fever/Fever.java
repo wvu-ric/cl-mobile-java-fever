@@ -17,10 +17,15 @@ public class Fever {
         
         //Use if-else logic to determine proper response
         
+        if(userTemperature < 98.6){
         System.out.println("Your temperature is low.");
-        System.out.println("Your temperature is normal.");
+        }
+        else if(userTemperature > 98.6){
         System.out.println("Your temperature is high.");
-        
+        }
+        else{
+        System.out.println("Your temperature is normal.");
+        }
     }
     
 }
